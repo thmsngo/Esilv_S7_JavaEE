@@ -1,6 +1,7 @@
 # JavaEE
 
 #WebToDoList Project
+
 The objective of the project is to dynamic web application called “WebToDoList”. That app will allow an instructor to put online a todo list for his students and allow the students to access this todo list.
 
 An authentication interface will first prompt in order to identify, through a login process, if the user is a student or an instructor. Depends on the status of the user, different options will be accessible.
