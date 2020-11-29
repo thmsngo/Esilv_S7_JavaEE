@@ -9,3 +9,20 @@ An authentication interface will first prompt in order to identify, through a lo
 • An instructor can read, add, edit and delete todo on the list.
 • An unknow tries to connect to the application, an error message is displayed.
 The instructor and all his students have user accounts in the SQL database. The login system verifies his account if it is valid user or not. An account is defined by a username, a password and a role (instructor or student). After the authentication process, the web site creates a cookie for the username after the first login by a new user.
+
+
+#WebStudentBook
+
+In this project, we want to develop the « WebStudentBook » application using frameworks (JSF for JavaEE and EclipseLink for JPA).
+
+The application allows us to:
+-	Display students from a MySQL student database in a browser.
+-	Add a new student to the database.
+-	Edit a displayed student.
+-	Delete a displayed student.
+-	
+To make simple, a student is characterized by his:
+-	ID.
+-	First name
+-	Last name
+-	Email.
