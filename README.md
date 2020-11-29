@@ -20,7 +20,6 @@ The application allows us to:
 -	Add a new student to the database.
 -	Edit a displayed student.
 -	Delete a displayed student.
--	
 To make simple, a student is characterized by his:
 -	ID.
 -	First name
