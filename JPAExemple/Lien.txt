@@ -1,0 +1,1 @@
+https://www.javatips.net/blog/java-persistence-jpa-2-0-tutorial-with-eclipselink
