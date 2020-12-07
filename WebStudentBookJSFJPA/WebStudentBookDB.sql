@@ -8,12 +8,10 @@ CREATE TABLE `studentdb`.`student` (
   `email` VARCHAR(45) NULL,
   PRIMARY KEY (`id`));
 
-#SET @@global.time_zone = '+00:00';
-#SET @@session.time_zone = '+00:00';
-
-#Select @@global.time_zone,@@session.time_zone;
-#Finalement pas besoin des times zones car j'ai ajouté serverTimezone=UTC dans mon URL MySQL
-#url="jdbc:mysql://localhost:3306/studentdb?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC"
-
-
-INSERT INTO student(first_name,last_name,email) VALUES ('Lucas','Becker','LucasBecker@gmail.com');
+INSERT INTO student(first_name,last_name,email) VALUES ('Lucas','Becker','lucas.becker@edu.devinci.fr');
+INSERT INTO student(first_name,last_name,email) VALUES ('Thomas','Ngo','thomas.ngo@edu.devinci.fr');
+INSERT INTO student(first_name,last_name,email) VALUES ('Alain','Delon','alain.delon@gmail.com');
+INSERT INTO student(first_name,last_name,email) VALUES ('Jean','Dujardin','jean.dujardin@gmail.com');
+INSERT INTO student(first_name,last_name,email) VALUES ('Gérard','Depardieu','gerard.depardieu@gmail.com');
+INSERT INTO student(first_name,last_name,email) VALUES ('Marion','Cotillard','marion.cotillard@gmail.com');
+INSERT INTO student(first_name,last_name,email) VALUES ('Guillaume','Canet','guillaume.canet@gmail.com');
